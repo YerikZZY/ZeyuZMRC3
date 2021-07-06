@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8733CFC25DA75B500075C21 /* DVRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8733CFB25DA75B500075C21 /* DVRViewController.swift */; };
+		F8733D1825E1A9CB00075C21 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8733D1725E1A9CB00075C21 /* ConfigViewController.swift */; };
+		F8733D1B25E32CCD00075C21 /* FavoriteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8733D1A25E32CCD00075C21 /* FavoriteData.swift */; };
 		F8AD7AA025C6475E00B7B179 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AD7A9F25C6475E00B7B179 /* AppDelegate.swift */; };
 		F8AD7AA225C6475E00B7B179 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AD7AA125C6475E00B7B179 /* SceneDelegate.swift */; };
 		F8AD7AA425C6475E00B7B179 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AD7AA325C6475E00B7B179 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F8733CFB25DA75B500075C21 /* DVRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVRViewController.swift; sourceTree = "<group>"; };
+		F8733D1725E1A9CB00075C21 /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
+		F8733D1A25E32CCD00075C21 /* FavoriteData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteData.swift; sourceTree = "<group>"; };
 		F8AD7A9C25C6475E00B7B179 /* ZeyuZMRC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeyuZMRC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8AD7A9F25C6475E00B7B179 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8AD7AA125C6475E00B7B179 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,7 +65,10 @@
 				F8AD7A9F25C6475E00B7B179 /* AppDelegate.swift */,
 				F8AD7AA125C6475E00B7B179 /* SceneDelegate.swift */,
 				F8AD7AA325C6475E00B7B179 /* ViewController.swift */,
+				F8733D1A25E32CCD00075C21 /* FavoriteData.swift */,
 				F8AD7AA525C6475E00B7B179 /* Main.storyboard */,
+				F8733D1725E1A9CB00075C21 /* ConfigViewController.swift */,
+				F8733CFB25DA75B500075C21 /* DVRViewController.swift */,
 				F8AD7AA825C6475F00B7B179 /* Assets.xcassets */,
 				F8AD7AAA25C6475F00B7B179 /* LaunchScreen.storyboard */,
 				F8AD7AAD25C6475F00B7B179 /* Info.plist */,
@@ -138,7 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8AD7AA425C6475E00B7B179 /* ViewController.swift in Sources */,
+				F8733D1B25E32CCD00075C21 /* FavoriteData.swift in Sources */,
+				F8733CFC25DA75B500075C21 /* DVRViewController.swift in Sources */,
 				F8AD7AA025C6475E00B7B179 /* AppDelegate.swift in Sources */,
+				F8733D1825E1A9CB00075C21 /* ConfigViewController.swift in Sources */,
 				F8AD7AA225C6475E00B7B179 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
